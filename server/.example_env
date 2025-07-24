@@ -1,0 +1,22 @@
+# JWT 비밀키 (아무도 모르는 복잡한 문자열로 변경하세요)
+JWT_SECRET_KEY="your-super-secret-and-long-jwt-key"
+
+# 카카오 OAUTH
+KAKAO_CLIENT_ID="여기에 각자 발급받은 카카오 REST API 키를 입력하세요"
+KAKAO_REDIRECT_URI="http://127.0.0.1:5000/oauth/kakao"
+
+# 네이버 OAUTH
+NAVER_CLIENT_ID="여기에 각자 발급받은 네이버 Client ID를 입력하세요"
+NAVER_CLIENT_SECRET="iPRLKGciQe"
+NAVER_REDIRECT_URI="http://127.0.0.1:5000/oauth/naver"
+
+# 구글 OAUTH
+GOOGLE_CLIENT_ID="여기에 각자 발급받은 구글 클라이언트 ID를 입력하세요"
+GOOGLE_CLIENT_SECRET="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"
+GOOGLE_REDIRECT_URI="http://127.0.0.1:5000/oauth/google"
+
+# MySQL 데이터베이스
+DB_USER="mysql_사용자명"
+DB_PASSWORD="mysql_비밀번호"
+DB_HOST="localhost"
+DB_NAME="데이터베이스명"
